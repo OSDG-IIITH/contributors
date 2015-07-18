@@ -1,0 +1,23 @@
+1.TODO for Top Users:
+a.Write a module to get 
+  -repos under OSDG-IIITH,
+  -get issues of each repos labelled easy, med, diff,or bugs 
+			if issue is closed :assign points to user
+			if bugs are genuine:	assign points to user
+b.Write a script to create a leaderboard with the existing db
+
+2.TODO for Top Repos:
+a.Write a module to get 
+ -repos under OSDG-IIITH,
+ -get list of most active repos
+      -no of latest commits
+      -no of contributors
+    -give points to the owner and collaborators
+  -get list of popular repos
+      -no of stars
+    -give points to the owner and collaborators
+b.Write a script to create a leaderboard with the existing db
+
+
+				
+				
