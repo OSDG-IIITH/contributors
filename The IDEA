@@ -1,0 +1,32 @@
+Here's what we had thought of doing:
+We will be awarding points for successful commits and for creating functional repos instead of simply counting the lines of code written.
+Here's why:
+
+1.Sometimes a few lines of code can do a lot:
+
+Fixing Bugs ,adding new feature to a project may sometimes take up a few lines of code but they do cause a significant change. Hence whenever the repo owner accepts a change request from user A, user A should be rewarded with suitable points. We can have a marking scheme based on the type of job it is.
+For example every repo can have jobs which can be labelled based on difficulty:
+Feature addn(easy, med,diff)
+Fixing bugs(easy, med,diff)
+The repo owner can specify the type of jobs in "repo TODO" beforehand. This will not only make scoring easier but also give the contributors a better idea of what the job is like. This will also attract newbies to contribute.
+If a user wants to do a job not mentioned in "repo TODO" , he can always contact the repo owner abt the work and both can mutually agree on difficulty rating.
+This way we will be awarding users based on the impact their code creates.
+
+2.Helps prevent cheating:
+
+If no of lines were a criteria, then people can purposely write code that's verbose!
+If "successful commits" become a criteria, then people will be compelled to write code that's good in quality and not in quantity.
+
+3.Apprecitate new ideas:
+We can also reward people for coming up with new ideas and new projects by awarding points for creating repos. Creating Repos will definitely require permission, and its functionality will be monitored by the OSDG admin. This repo owner will be awarded if:
+  -the project has a great impact on IIIT community:this will encourage small projects like- the irc bot which requires fewer lines of code and less contributors but has a great impact.
+  -the project manages to draw a lot of contributors:I feel the health of a project can be measured by the no of active contributors it has. this one is for the big projects like the iiit Portals, which has contributions coming in quite frequently.
+More points will be given to the creator if both the criteria are met. Owners and maintainers should be awarded for the idea and for maintaing a huge project.
+Plus, like Linux and other python lib repos, users should also be rewarded for pointing out genuine bugs and errors in an existing project.
+After all, its their observation that makes projects better!
+So basically, we plan to create a single dynamic page and awards points to:
+  - Top Contributors
+  - Top Repos
+  - Top Bug Reporters
+
+We can always merge 1 and 3, but I feel keeping a separate category will attract more contributors.
