@@ -11,11 +11,7 @@ def init_user(login):
 
 def req(get,params={}):
     """Function to send HTTP Requests"""
-<<<<<<< HEAD
-    params['access_token']='888d06eaeca57ad57b8ac1b0fb96d86a96d4b491'
-=======
     params['access_token']=''
->>>>>>> dc03e8caabe49a8ef1592676e9b241e81e1b402f
     api_host="https://api.github.com"
     url=api_host+get
     resp = requests.get(url=url, params=params)
