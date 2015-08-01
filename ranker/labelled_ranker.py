@@ -7,7 +7,7 @@ scoring=dict(zip(filters,[20,50,100,10]))
 users={}
 def req(get,params={}):
     """Function to send HTTP Requests"""
-    params['access_token']='da7992131c669b19e38da47fadf63e080174ffb7'
+    params['access_token']=''
     api_host="https://api.github.com"
     url=api_host+get
     resp = requests.get(url=url, params=params)
