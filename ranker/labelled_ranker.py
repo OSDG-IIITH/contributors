@@ -11,7 +11,7 @@ def init_user(login):
 
 def req(get,params={}):
     """Function to send HTTP Requests"""
-    params['access_token']=''
+    params['access_token']='d0fec873c0a68b8e8b29b2403914a41f59479dc5'
     api_host="https://api.github.com"
     url=api_host+get
     resp = requests.get(url=url, params=params)
@@ -98,7 +98,7 @@ def update_contributors(repo,org):
 
 if __name__ == "__main__":
     org="OSDG-IIITH"
-    filename="ranking.json"
+    filename="show/show_files/ranking.json"
     repos=get_repos(org)
     for repo in repos:
         update_contributors(repo,org)
@@ -111,6 +111,8 @@ if __name__ == "__main__":
         users[user]['total']=total
         
     users=sorted(users.items(), key=lambda x: x[1],reverse=True)
-    
+    for i in range(len(users)):
+        users[i]={'user':users[i][0],'scores':users[i][1]}
+
     with open(filename, "w") as jsonFile:
             jsonFile.write(json.dumps(users))
